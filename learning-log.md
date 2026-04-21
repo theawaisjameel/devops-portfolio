@@ -123,3 +123,80 @@
 
 **Tomorrow:**
 - Continue DevOps roadmap and move to next topic
+
+---
+---
+
+
+## Day 4 — April 21, 2026
+
+**Completed:**
+- Learned Bash scripting basics and script structure
+- Understood shebang (`#!/usr/bin/env bash`) and how scripts execute
+- Learned `set -euo pipefail` and why it is important to prevent silent failures
+
+- Practiced variables:
+  - Regular, readonly, and environment variables
+  - Command substitution using `$(...)`
+  - Special variables: `$0`, `$1`, `$@`, `$#`, `$?`, `$$`
+
+- Learned conditionals:
+  - `if / elif / else` statements
+  - Numeric and string comparisons
+  - File and directory checks (`-f`, `-d`, `-e`)
+  - Checking command availability using `command -v`
+
+- Practiced loops:
+  - `for`, `while`, and `until`
+  - Looping over arrays and files
+  - Retry pattern using `while`
+  - Used `break` and `continue`
+
+- Learned functions:
+  - Defined and called functions
+  - Passed arguments to functions
+  - Used `local` variables to avoid global conflicts
+  - Understood `return` vs `exit`
+  - Created logging functions for better output
+
+- Learned input handling:
+  - Validated arguments using `$#`
+  - Assigned positional arguments
+  - Validated environment input
+  - Used `read` for confirmation prompts
+
+- Completed real-world lab:
+  - Built `pre-deploy-check.sh`
+  - Validated environment, commands, disk space, files, and network
+  - Implemented production safety confirmation
+  - Used pass/fail counters and exit codes for final decision
+
+---
+
+**Commands I learned today:**  
+`chmod` · `read` · `df` · `awk` · `ss` · `grep` · `command -v` · `whoami` · `date`
+
+---
+
+**Struggled with:**
+- Understanding `set -euo pipefail` behavior in different cases  
+- Difference between `exit` and `return`  
+- Tracking `$?` after commands  
+- Handling input validation logic  
+
+---
+
+**Key Learnings:**
+- Always validate inputs before running scripts  
+- Use `local` in functions to prevent bugs  
+- Exit codes control script flow and CI/CD behavior  
+- Retry logic is important in real deployments  
+- Logging makes scripts easier to debug and understand  
+- Scripts should fail safely and clearly  
+
+---
+
+**Tomorrow:**
+- Learn advanced argument handling and error trapping  
+- Explore cron jobs and automation  
+- Build system health monitoring script

@@ -200,3 +200,22 @@
 - Learn advanced argument handling and error trapping  
 - Explore cron jobs and automation  
 - Build system health monitoring script
+
+---
+---
+
+
+## Week 1 Project: System Health Monitor — May 10, 2026
+
+- Built a Bash-based system health monitor script
+- Monitored CPU, memory, disk usage, services, and ports
+- Used `awk` for extracting and processing system metrics
+- Implemented structured logging with timestamps and log levels
+- Added verbose mode and flag handling using `getopts`
+- Used `trap` for cleanup and safe script exiting
+- Configured cron job to run health checks automatically every 5 minutes
+- Practiced defensive scripting, threshold checks, and alert reporting
+
+**Tools/Commands Used:**  
+`getopts` · `trap` · `cron` · `awk` · `top` · `free` · `df` · `ss` · `pgrep` · `systemctl`
+

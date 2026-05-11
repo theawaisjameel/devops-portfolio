@@ -1,0 +1,99 @@
+[2026-05-07 13:19:57] [DEBUG] Raw CPU usage: 0.0%
+[2026-05-07 13:19:57] [INFO] CPU usage OK: 0.0%
+[2026-05-07 13:19:57] [INFO] Memory OK: 13% used (736MB / 5863MB)
+[2026-05-07 13:19:57] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:19:57] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:19:57] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:19:57] [WARN] Service not detected: ssh
+[2026-05-07 13:19:58] [INFO] Service running: cron
+[2026-05-07 13:19:58] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:19:58] [DEBUG] Script exiting with code 1
+[2026-05-07 13:26:36] [DEBUG] Raw CPU usage: 0.0%
+[2026-05-07 13:26:36] [INFO] CPU usage OK: 0.0%
+[2026-05-07 13:26:36] [INFO] Memory OK: 12% used (727MB / 5863MB)
+[2026-05-07 13:26:36] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:26:37] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:26:37] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:26:37] [WARN] Service not detected: ssh
+[2026-05-07 13:26:37] [INFO] Service running: cron
+[2026-05-07 13:26:37] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:26:37] [DEBUG] Script exiting with code 1
+[2026-05-07 13:30:54] [DEBUG] Raw CPU usage: 2.4%
+[2026-05-07 13:30:54] [INFO] CPU usage OK: 2.4%
+[2026-05-07 13:30:54] [INFO] Memory OK: 12% used (731MB / 5863MB)
+[2026-05-07 13:30:54] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:30:54] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:30:54] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:30:54] [WARN] Service not detected: ssh
+[2026-05-07 13:30:54] [INFO] Service running: cron
+[2026-05-07 13:30:54] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:30:54] [DEBUG] Script exiting with code 1 \n\n
+[2026-05-07 13:38:19] [DEBUG] Raw CPU usage: 2.4%
+[2026-05-07 13:38:19] [INFO] CPU usage OK: 2.4%
+[2026-05-07 13:38:19] [INFO] Memory OK: 12% used (731MB / 5863MB)
+[2026-05-07 13:38:19] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:38:19] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:38:19] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:38:19] [WARN] Service not detected: ssh
+[2026-05-07 13:38:19] [INFO] Service running: cron
+[2026-05-07 13:38:19] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:38:19] [DEBUG] Script exiting with code 1
+    
+[2026-05-07 13:39:24] [DEBUG] Raw CPU usage: 0.0%
+[2026-05-07 13:39:24] [INFO] CPU usage OK: 0.0%
+[2026-05-07 13:39:24] [INFO] Memory OK: 12% used (730MB / 5863MB)
+[2026-05-07 13:39:24] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:39:24] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:39:24] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:39:24] [WARN] Service not detected: ssh
+[2026-05-07 13:39:24] [INFO] Service running: cron
+[2026-05-07 13:39:24] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:39:24] [DEBUG] Script exiting with code 1
+    
+[2026-05-07 13:41:00] [DEBUG] Raw CPU usage: 15.0%
+[2026-05-07 13:41:00] [INFO] CPU usage OK: 15.0%
+[2026-05-07 13:41:00] [INFO] Memory OK: 12% used (728MB / 5863MB)
+[2026-05-07 13:41:00] [INFO] Disk OK on /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2: 0% used (2.9G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /usr/lib/wsl/drivers: 51% used (68G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /: 1% used (953G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /usr/lib/wsl/lib: 0% used (2.9G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /init: 1% used (2.9G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /mnt/wslg/versions.txt: 1% used (2.9G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /mnt/wslg/doc: 1% used (2.9G free)
+[2026-05-07 13:41:00] [INFO] Disk OK on /mnt/c: 51% used (68G free)
+[2026-05-07 13:41:00] [WARN] Disk HIGH on /mnt/e: 80% used (80G used, 22G free)
+[2026-05-07 13:41:00] [WARN] Service not detected: ssh
+[2026-05-07 13:41:00] [INFO] Service running: cron
+[2026-05-07 13:41:00] [WARN] Port 22 (SSH) not listening
+[2026-05-07 13:41:00] [DEBUG] Script exiting with code 1
+    

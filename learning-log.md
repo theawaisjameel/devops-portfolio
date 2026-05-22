@@ -219,3 +219,159 @@
 **Tools/Commands Used:**  
 `getopts` · `trap` · `cron` · `awk` · `top` · `free` · `df` · `ss` · `pgrep` · `systemctl`
 
+---
+---
+
+
+# Learning Log
+
+## Day 6 — May 22, 2026
+
+**Completed:**
+- Learned Git branching fundamentals and understood that branches are lightweight movable pointers, not separate copies of repositories
+- Understood Git internals:
+  - branch pointers
+  - HEAD
+  - commit graph/history
+  - commit hashes
+  - unreachable commits and Git garbage collection
+- Practiced:
+  - creating branches
+  - switching branches
+  - renaming branches
+  - deleting branches safely and forcefully
+  - listing local and remote branches
+
+- Learned real-world branching strategies:
+  - GitFlow
+  - Trunk-Based Development
+- Understood:
+  - feature branches
+  - develop branch purpose
+  - release branches
+  - hotfix branches
+  - why modern DevOps teams prefer short-lived branches
+
+- Learned why Continuous Integration (CI) is important:
+  - smaller merges are safer
+  - long-lived branches create dangerous merge conflicts
+  - frequent integration reduces operational risk
+- Understood feature flags and how teams merge incomplete features safely without enabling them in production
+
+- Deeply understood merge vs rebase:
+  - merge preserves branch history using merge commits
+  - rebase rewrites commit history into linear form
+  - rebasing creates new commits with new hashes
+  - why rebasing shared branches is dangerous
+  - fast-forward merge behavior and pointer movement
+  - common ancestor concept during merge
+
+- Practiced merge workflow:
+  - created feature branches
+  - merged branches into main
+  - inspected merge history visually using graph logs
+
+- Practiced rebase workflow:
+  - rebased feature branch onto updated main
+  - understood commit replay behavior
+  - observed clean linear history after rebase
+
+- Learned and practiced:
+  - `git stash`
+  - `git stash pop`
+  - `git stash apply`
+  - `git cherry-pick`
+  - `Git tags`
+  - `annotated tags` vs `lightweight tags`
+
+- Learned professional Git history inspection:
+  - `git log`
+  - graph visualization
+  - filtering by author/date/message
+  - `git diff`
+  - created useful `glog` alias
+
+- Completed real-world conflict resolution lab:
+  - deliberately triggered rebase conflict
+  - understood conflict markers:\
+     `<<<<<<<`\
+     `=======`\
+     `>>>>>>>`
+  - manually resolved conflicts safely
+  - used:
+    - `git rebase --continue`
+    - `git rebase --abort`
+  - learned that conflict resolution requires engineering judgment, not blindly choosing one side
+
+- Simulated professional Pull Request workflow:
+  - understood local vs remote repositories
+  - added remote origin
+  - pushed branches to GitHub
+  - learned upstream tracking using `-u`
+  - understood PR lifecycle:
+    - feature branch
+    - push
+    - PR creation
+    - CI/CD checks
+    - code review
+    - merge
+  - learned why PRs are operational safety mechanisms
+  - understood protected main branches and CI gates
+  - learned squash-and-merge workflow
+
+- Simulated hotfix workflow:
+  - created hotfix branch from main
+  - patched production config issue
+  - merged hotfix into main
+  - created release tag
+  - understood why hotfixes must be minimal and urgent
+  - learned why hotfixes are often merged into both main and develop
+
+---
+
+**Commands I learned today:**  
+`git branch` · `git switch` · `git checkout` · `git merge` · `git rebase` · `git rebase --continue` · `git rebase --abort` · `git stash` · `git stash pop` · `git stash apply` · `git cherry-pick` · `git tag` · `git log --oneline --graph --all` · `git diff` · `git remote add origin` · `git remote -v` · `git push -u` · `git pull` · `git fetch` · `sed -i`
+
+---
+
+**Struggled with:**
+- Understanding rebasing shared branches and why history rewriting becomes dangerous
+- Understanding internal commit rewriting during rebase
+- Difference between merge commit, rebase, and squash merge
+- Reading conflict markers confidently at first
+- Understanding feature flags operationally
+- Understanding local vs remote tracking and upstream branches
+
+---
+
+**Key Learnings:**
+- Branches are lightweight pointers, not separate repositories
+- `HEAD` points to the currently checked out branch
+- Commits belong to Git history, branches only reference commits
+- Rebase creates new commits because parent commits change
+- Never rebase shared branches because it rewrites history for other developers
+- Merge conflicts are protective behavior by Git, not failures
+- Conflict resolution often requires combining both sides intelligently
+- Pull Requests are operational safety gates before production integration
+- CI/CD pipelines depend heavily on safe Git workflows
+- Protected main branches reduce production risk
+- Squash merge keeps main history cleaner for deployments and auditing
+- Hotfixes should contain the minimum safest production fix possible
+- Tags are important for release tracking and rollback operations
+
+---
+
+**Tomorrow:**
+- Day 7 — Python for DevOps
+- Learn:
+  - `os`
+  - `sys`
+  - `subprocess`
+  - `requests`
+  - `argparse`
+- Build Python automation skills on top of Linux, Bash, and Git foundations
+- Continue moving toward real DevOps automation workflows
+
+---
+---
+
